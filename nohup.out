@@ -1,0 +1,432 @@
+[1:1:0531/185525:FATAL:sandbox_linux.cc(180)] Check failed: sandbox::Credentials::MoveToNewUserNS(). 
+#0 0x558ed406e70e <unknown>
+#1 0x558ed408703e <unknown>
+#2 0x558ed292e720 <unknown>
+#3 0x558ed34bb510 <unknown>
+#4 0x558ed3cb51a7 <unknown>
+#5 0x558ed3cb58a8 <unknown>
+#6 0x558ed3cb3aa9 <unknown>
+#7 0x558ed28325bc ChromeMain
+#8 0x7f20ec3242b1 __libc_start_main
+#9 0x558ed283246a _start
+
+Received signal 6
+#0 0x558ed406e70e <unknown>
+#1 0x558ed406eac9 <unknown>
+#2 0x7f20f6fd7100 <unknown>
+#3 0x7f20ec336fdf gsignal
+#4 0x7f20ec33840a abort
+#5 0x558ed406e285 <unknown>
+#6 0x558ed40871dd <unknown>
+#7 0x558ed292e720 <unknown>
+#8 0x558ed34bb510 <unknown>
+#9 0x558ed3cb51a7 <unknown>
+#10 0x558ed3cb58a8 <unknown>
+#11 0x558ed3cb3aa9 <unknown>
+#12 0x558ed28325bc ChromeMain
+#13 0x7f20ec3242b1 __libc_start_main
+#14 0x558ed283246a _start
+  r8: 0000000000000000  r9: 00007ffe2393e590 r10: 0000000000000008 r11: 0000000000000246
+ r12: 00007ffe2393ea50 r13: 00007ffe2393eed8 r14: 00007ffe2393ea00 r15: 0000000000000000
+  di: 0000000000000002  si: 00007ffe2393e590  bp: 00007ffe2393e9f0  bx: 0000000000000006
+  dx: 0000000000000000  ax: 0000000000000000  cx: 00007f20ec336fdf  sp: 00007ffe2393e608
+  ip: 00007f20ec336fdf efl: 0000000000000246 cgf: 002b000000000033 erf: 0000000000000000
+ trp: 0000000000000000 msk: 0000000000000000 cr2: 0000000000000000
+[end of stack trace]
+[3369:3369:0531/185525:FATAL:zygote_host_impl_linux.cc(196)] Check failed: ReceiveFixedMessage(fds[0], kZygoteHelloMessage, sizeof(kZygoteHelloMessage), &real_pid). 
+#0 0x55d7f938b70e <unknown>
+#1 0x55d7f93a403e <unknown>
+#2 0x55d7f8babac3 <unknown>
+#3 0x55d7f8baa994 <unknown>
+#4 0x55d7f8baaf5e <unknown>
+#5 0x55d7f884dca1 <unknown>
+#6 0x55d7f8850c31 <unknown>
+#7 0x55d7f88492a4 <unknown>
+#8 0x55d7f8fd28a8 <unknown>
+#9 0x55d7f8fd0aa9 <unknown>
+#10 0x55d7f7b4f5bc ChromeMain
+#11 0x7f7df61102b1 __libc_start_main
+#12 0x55d7f7b4f46a _start
+
+[1:1:0531/185529:FATAL:sandbox_linux.cc(180)] Check failed: sandbox::Credentials::MoveToNewUserNS(). 
+#0 0x55a746fc770e <unknown>
+#1 0x55a746fe003e <unknown>
+#2 0x55a745887720 <unknown>
+#3 0x55a746414510 <unknown>
+#4 0x55a746c0e1a7 <unknown>
+#5 0x55a746c0e8a8 <unknown>
+#6 0x55a746c0caa9 <unknown>
+#7 0x55a74578b5bc ChromeMain
+#8 0x7f0472d812b1 __libc_start_main
+#9 0x55a74578b46a _start
+
+Received signal 6
+#0 0x55a746fc770e <unknown>
+#1 0x55a746fc7ac9 <unknown>
+#2 0x7f047da34100 <unknown>
+#3 0x7f0472d93fdf gsignal
+#4 0x7f0472d9540a abort
+#5 0x55a746fc7285 <unknown>
+#6 0x55a746fe01dd <unknown>
+#7 0x55a745887720 <unknown>
+#8 0x55a746414510 <unknown>
+#9 0x55a746c0e1a7 <unknown>
+#10 0x55a746c0e8a8 <unknown>
+#11 0x55a746c0caa9 <unknown>
+#12 0x55a74578b5bc ChromeMain
+#13 0x7f0472d812b1 __libc_start_main
+#14 0x55a74578b46a _start
+  r8: 0000000000000000  r9: 00007ffd1b632180 r10: 0000000000000008 r11: 0000000000000246
+ r12: 00007ffd1b632640 r13: 00007ffd1b632ac8 r14: 00007ffd1b6325f0 r15: 0000000000000000
+  di: 0000000000000002  si: 00007ffd1b632180  bp: 00007ffd1b6325e0  bx: 0000000000000006
+  dx: 0000000000000000  ax: 0000000000000000  cx: 00007f0472d93fdf  sp: 00007ffd1b6321f8
+  ip: 00007f0472d93fdf efl: 0000000000000246 cgf: 002b000000000033 erf: 0000000000000000
+ trp: 0000000000000000 msk: 0000000000000000 cr2: 0000000000000000
+[end of stack trace]
+[3378:3378:0531/185529:FATAL:zygote_host_impl_linux.cc(196)] Check failed: ReceiveFixedMessage(fds[0], kZygoteHelloMessage, sizeof(kZygoteHelloMessage), &real_pid). 
+#0 0x562e8afc770e <unknown>
+#1 0x562e8afe003e <unknown>
+#2 0x562e8a7e7ac3 <unknown>
+#3 0x562e8a7e6994 <unknown>
+#4 0x562e8a7e6f5e <unknown>
+#5 0x562e8a489ca1 <unknown>
+#6 0x562e8a48cc31 <unknown>
+#7 0x562e8a4852a4 <unknown>
+#8 0x562e8ac0e8a8 <unknown>
+#9 0x562e8ac0caa9 <unknown>
+#10 0x562e8978b5bc ChromeMain
+#11 0x7f35f4b882b1 __libc_start_main
+#12 0x562e8978b46a _start
+
+[4979:4979:0531/190013.370765:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[4898:4898:0531/190014.891884:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190019.233665:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190019.345881:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190019.465874:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190019.545323:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190019.697869:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190019.985923:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+A Parser-blocking, cross site (i.e. different eTLD+1) script, https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/js/all_async_search_a2c362b.js, is invoked via document.write. This MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message.See https://www.chromestatus.com/feature/5718547946799104 for more details.
+A Parser-blocking, cross site (i.e. different eTLD+1) script, https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/js/all_async_search_a2c362b.js, is invoked via document.write. This MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message.See https://www.chromestatus.com/feature/5718547946799104 for more details.
+[4898:4898:0531/190021.675274:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190021.793534:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190022.082016:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190022.250376:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190022.393610:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190022.529946:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190022.633410:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190023.116316:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190023.258463:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190023.337563:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190023.457966:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190023.713654:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190024.138496:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190024.273593:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190024.675664:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190024.833792:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190025.265624:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190025.767572:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190025.796573:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190025.825762:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190025.856256:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190025.887022:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190025.916831:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190025.946396:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190025.975924:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190026.006387:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190026.036659:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190026.066554:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190026.096828:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190026.409767:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190150.521864:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190150.737870:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190150.985628:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190151.193854:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190151.313630:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190151.611306:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190151.761563:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190151.898459:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190152.049714:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190152.154094:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190152.753746:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190153.177764:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190153.329960:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190154.050050:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190154.217655:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190154.378720:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190154.538019:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190154.857622:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190155.066077:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190155.185908:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190155.364075:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190155.441441:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190155.913976:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190156.041896:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190156.428383:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190156.562006:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190156.809711:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190157.001734:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190158.569722:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190158.825623:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190158.841616:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190159.331861:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190159.506147:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190159.737484:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190200.482188:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190247.410576:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190247.490015:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190247.665836:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190247.859412:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190248.017725:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190248.297697:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190248.458590:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190248.585629:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190249.148379:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190249.289725:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190249.577874:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190249.785721:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190250.156354:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190250.396016:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190250.826415:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+[4898:4898:0531/190251.348060:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190251.497732:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190251.825685:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190251.969646:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190252.625761:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190252.737729:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190252.921757:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190253.105575:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190253.305713:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190253.465812:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190253.938002:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190254.353569:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190254.457779:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190254.625760:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190254.761808:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+A Parser-blocking, cross site (i.e. different eTLD+1) script, http://pos.baidu.com/acmm?di=967282&dri=0&dis=0&dai=1&ps=1238x212&dcb=___adblockplus&dtm=SSP_JSONP&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1496228661679&ti=chrome%E5%87%BA%E9%97%AE%E9%A2%98%E4%BA%86%EF%BC%8C%E8%A6%81%E5%9C%A8%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F%E4%B8%8A%E5%8A%A0--no-sandbox%EF%BC%8C%E4%B8%8D%E7%84%B6%E4%B8%8D%E8%83%BD%E7%94%A8%20-%20%E5%AE%8C%E5%85%A8%E6%95%B0%E7%A0%81%E8%AE%A8%E8%AE%BA%E5%8C%BA%20-%20TGFC%E5%88%86%E4%BA%AB%E5%AE%85%E7%94%9F%E6%B4%BB&ari=2&dbv=2&drs=1&pcs=1025x555&pss=1182x1508&cfv=0&cpl=2&chi=1&cce=true&cec=GBK&tlm=1496228661&rw=570&ltu=http%3A%2F%2Fclub.tgfcer.com%2Fthread-7238996-1-60.html&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DCQPDXklP3Y7Oo5nRWYzvzUKMOiIb4XIA7r-X6_Tg1jN-wm5CFZPNIuvfIQB0e_mUxUZJI2ELf_PC-APGTv8bHq%26wd%3D%26eqid%3Dd0a520f6000069f100000003592ea2d8&lcr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DCQPDXklP3Y7Oo5nRWYzvzUKMOiIb4XIA7r-X6_Tg1jN-wm5CFZPNIuvfIQB0e_mUxUZJI2ELf_PC-APGTv8bHq%26wd%3D%26eqid%3Dd0a520f6000069f100000003592ea2d8&ecd=1&uc=1366x741&pis=-1x-1&sr=1366x768&tcn=1496228662, is invoked via document.write. This MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message.See https://www.chromestatus.com/feature/5718547946799104 for more details.
+A Parser-blocking, cross site (i.e. different eTLD+1) script, http://pos.baidu.com/acmm?di=967282&dri=0&dis=0&dai=1&ps=1238x212&dcb=___adblockplus&dtm=SSP_JSONP&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1496228661679&ti=chrome%E5%87%BA%E9%97%AE%E9%A2%98%E4%BA%86%EF%BC%8C%E8%A6%81%E5%9C%A8%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F%E4%B8%8A%E5%8A%A0--no-sandbox%EF%BC%8C%E4%B8%8D%E7%84%B6%E4%B8%8D%E8%83%BD%E7%94%A8%20-%20%E5%AE%8C%E5%85%A8%E6%95%B0%E7%A0%81%E8%AE%A8%E8%AE%BA%E5%8C%BA%20-%20TGFC%E5%88%86%E4%BA%AB%E5%AE%85%E7%94%9F%E6%B4%BB&ari=2&dbv=2&drs=1&pcs=1025x555&pss=1182x1508&cfv=0&cpl=2&chi=1&cce=true&cec=GBK&tlm=1496228661&rw=570&ltu=http%3A%2F%2Fclub.tgfcer.com%2Fthread-7238996-1-60.html&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DCQPDXklP3Y7Oo5nRWYzvzUKMOiIb4XIA7r-X6_Tg1jN-wm5CFZPNIuvfIQB0e_mUxUZJI2ELf_PC-APGTv8bHq%26wd%3D%26eqid%3Dd0a520f6000069f100000003592ea2d8&lcr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DCQPDXklP3Y7Oo5nRWYzvzUKMOiIb4XIA7r-X6_Tg1jN-wm5CFZPNIuvfIQB0e_mUxUZJI2ELf_PC-APGTv8bHq%26wd%3D%26eqid%3Dd0a520f6000069f100000003592ea2d8&ecd=1&uc=1366x741&pis=-1x-1&sr=1366x768&tcn=1496228662, is invoked via document.write. This MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message.See https://www.chromestatus.com/feature/5718547946799104 for more details.
+libpng warning: iCCP: known incorrect sRGB profile
+A Parser-blocking, cross site (i.e. different eTLD+1) script, http://pos.baidu.com/acmm?di=3400565&dri=0&dis=0&dai=2&ps=8773x0&dcb=___adblockplus&dtm=SSP_JSONP&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1496228661679&ti=chrome%E5%87%BA%E9%97%AE%E9%A2%98%E4%BA%86%EF%BC%8C%E8%A6%81%E5%9C%A8%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F%E4%B8%8A%E5%8A%A0--no-sandbox%EF%BC%8C%E4%B8%8D%E7%84%B6%E4%B8%8D%E8%83%BD%E7%94%A8%20-%20%E5%AE%8C%E5%85%A8%E6%95%B0%E7%A0%81%E8%AE%A8%E8%AE%BA%E5%8C%BA%20-%20TGFC%E5%88%86%E4%BA%AB%E5%AE%85%E7%94%9F%E6%B4%BB&ari=2&dbv=2&drs=1&pcs=1025x555&pss=1182x8773&cfv=0&cpl=2&chi=1&cce=true&cec=GBK&tlm=1496228662&rw=570&ltu=http%3A%2F%2Fclub.tgfcer.com%2Fthread-7238996-1-60.html&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DCQPDXklP3Y7Oo5nRWYzvzUKMOiIb4XIA7r-X6_Tg1jN-wm5CFZPNIuvfIQB0e_mUxUZJI2ELf_PC-APGTv8bHq%26wd%3D%26eqid%3Dd0a520f6000069f100000003592ea2d8&lcr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DCQPDXklP3Y7Oo5nRWYzvzUKMOiIb4XIA7r-X6_Tg1jN-wm5CFZPNIuvfIQB0e_mUxUZJI2ELf_PC-APGTv8bHq%26wd%3D%26eqid%3Dd0a520f6000069f100000003592ea2d8&ecd=1&uc=1366x741&pis=-1x-1&sr=1366x768&tcn=1496228662, is invoked via document.write. This MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message.See https://www.chromestatus.com/feature/5718547946799104 for more details.
+A Parser-blocking, cross site (i.e. different eTLD+1) script, http://pos.baidu.com/acmm?di=3400565&dri=0&dis=0&dai=2&ps=8773x0&dcb=___adblockplus&dtm=SSP_JSONP&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1496228661679&ti=chrome%E5%87%BA%E9%97%AE%E9%A2%98%E4%BA%86%EF%BC%8C%E8%A6%81%E5%9C%A8%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F%E4%B8%8A%E5%8A%A0--no-sandbox%EF%BC%8C%E4%B8%8D%E7%84%B6%E4%B8%8D%E8%83%BD%E7%94%A8%20-%20%E5%AE%8C%E5%85%A8%E6%95%B0%E7%A0%81%E8%AE%A8%E8%AE%BA%E5%8C%BA%20-%20TGFC%E5%88%86%E4%BA%AB%E5%AE%85%E7%94%9F%E6%B4%BB&ari=2&dbv=2&drs=1&pcs=1025x555&pss=1182x8773&cfv=0&cpl=2&chi=1&cce=true&cec=GBK&tlm=1496228662&rw=570&ltu=http%3A%2F%2Fclub.tgfcer.com%2Fthread-7238996-1-60.html&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DCQPDXklP3Y7Oo5nRWYzvzUKMOiIb4XIA7r-X6_Tg1jN-wm5CFZPNIuvfIQB0e_mUxUZJI2ELf_PC-APGTv8bHq%26wd%3D%26eqid%3Dd0a520f6000069f100000003592ea2d8&lcr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DCQPDXklP3Y7Oo5nRWYzvzUKMOiIb4XIA7r-X6_Tg1jN-wm5CFZPNIuvfIQB0e_mUxUZJI2ELf_PC-APGTv8bHq%26wd%3D%26eqid%3Dd0a520f6000069f100000003592ea2d8&ecd=1&uc=1366x741&pis=-1x-1&sr=1366x768&tcn=1496228662, is invoked via document.write. This MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message.See https://www.chromestatus.com/feature/5718547946799104 for more details.
+A Parser-blocking, cross site (i.e. different eTLD+1) script, http://p.yiqifa.com/js/juejinlian.js, is invoked via document.write. This MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message.See https://www.chromestatus.com/feature/5718547946799104 for more details.
+A Parser-blocking, cross site (i.e. different eTLD+1) script, http://p.yiqifa.com/js/juejinlian.js, is invoked via document.write. This MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message.See https://www.chromestatus.com/feature/5718547946799104 for more details.
+A Parser-blocking, cross site (i.e. different eTLD+1) script, http://p.yiqifa.com/jj?_jjl.js, is invoked via document.write. This MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message.See https://www.chromestatus.com/feature/5718547946799104 for more details.
+A Parser-blocking, cross site (i.e. different eTLD+1) script, http://p.yiqifa.com/js/md.js, is invoked via document.write. This MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message.See https://www.chromestatus.com/feature/5718547946799104 for more details.
+A Parser-blocking, cross site (i.e. different eTLD+1) script, http://p.yiqifa.com/jj?sid=327343&_jjl.js, is invoked via document.write. This MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message.See https://www.chromestatus.com/feature/5718547946799104 for more details.
+A Parser-blocking, cross site (i.e. different eTLD+1) script, http://p.yiqifa.com/jj?sid=327343&_jjl.js, is invoked via document.write. This MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message.See https://www.chromestatus.com/feature/5718547946799104 for more details.
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+[4898:4898:0531/190438.194270:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190438.338017:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190439.241944:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190440.081888:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190440.305811:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190440.449527:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190440.617874:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190440.729514:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190441.131905:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190441.273927:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190441.773731:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190441.803866:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190441.833603:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190441.863693:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190441.893313:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190442.002032:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190442.153709:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190442.338138:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190442.425548:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190442.626753:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190442.737705:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190443.153887:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190444.282409:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190444.698049:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190444.825779:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190445.179327:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190445.361962:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190445.660413:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190446.330160:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190446.689933:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190447.041760:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190447.865918:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190448.018438:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190448.113832:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190448.290250:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
+[4898:4898:0531/190448.433909:ERROR:browser_main_loop.cc(279)] Gdk: gdk_window_set_user_time called on non-toplevel
+
